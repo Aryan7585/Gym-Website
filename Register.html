@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+</head>
+<style>
+body {
+  background-image: 
+  url('https://cutewallpaper.org/21/gym-backgrounds/Best-33-Exercise-Gym-Background-on-HipWallpaper-Exercise-.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left div {
+
+        font-size: 26px;
+        color: white;
+        position: relative;
+        top: auto;
+        right: 50%;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 29px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    #ul{
+        text-decoration: none;
+        list-style: none;
+    }
+  
+    .navbar{
+        color: white;
+
+    }
+    .navbar li{
+        display: inline-block;
+        padding: 15px 15px;
+        color: white;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size:larger;
+    }
+    .navbar li a:hover{
+        color: red;
+    }
+    .btn {
+        font-family:sans-serif;
+        font-size: larger;
+        font-weight:bolder ;
+        margin: 0px 9px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover{
+        font-size: large;
+        font-weight: bolder;
+        color:rgb(255, 0, 0);
+        background-color: rgb(0, 0, 0);
+    }
+
+    .right button:hover {
+        color: red;
+        font-weight:500;
+    }
+    .container {
+        border: 2px solid white;
+        position:relative;
+        right: 0%;
+        width: 25%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        display: block;
+        width: 70%;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 15px;
+        border-radius: 8px;
+        background-color: rgb(253, 253, 253);
+        color: black;
+    }
+
+    .container h1 {
+        text-align: center;
+        color: white;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+       
+</style>
+<body>
+    <div class="left">
+        <div>Cross Fit</div>
+    </div>
+    <!-- Mid box for navbar -->
+    <div class="mid">
+        <ul class="navbar" id="ul">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Trainers</a></li>
+            <li><a href="Register.html">Register Now</a></li>
+
+        </ul>
+    </div>
+
+    <!-- Right box for buttons -->
+    <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+    </div>
+
+    <div class="container">
+        <h1>Join the best gym of Delhi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                
+                <input type="text" name="" placeholder="Name">
+            </div>
+            <div class="form-group">
+                
+                <input type="text" name="" placeholder="Phone No.">
+            </div>
+            <div class="form-group">
+                
+                <input type="text" name="" placeholder="Email ">
+            </div>
+            <div class="form-group">
+    
+                <input type="text" name="" placeholder="Age ">
+            </div>
+            <div class="form-group">
+                
+                <input type="text" name="" placeholder="Plan">
+            </div>
+            <div class="form-group">
+                
+                <input type="text" name="" placeholder="Payment Method">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div> 
+
+   
+</body>
+</html>
